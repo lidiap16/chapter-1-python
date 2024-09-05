@@ -1,0 +1,6 @@
+#lidia pasiecznik hw 04/9/24
+while True:
+    print("X X")
+    print(" X ")
+    
+   
