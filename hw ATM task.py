@@ -1,5 +1,5 @@
 # Date: Sept 2024
-# Author: MS Hayes
+# coAuthor: lidia
 # Purpose: This code displays an ATM menu
 
 print("\t|-------------------------------|")
