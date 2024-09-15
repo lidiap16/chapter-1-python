@@ -1,4 +1,4 @@
-#lidia pasiecznik
+#lidia pasiecznik  15/09/24
 #hw task2
 player = False
 while player == False:
