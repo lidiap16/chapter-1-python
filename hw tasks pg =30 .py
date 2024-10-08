@@ -33,38 +33,38 @@ enter age-> if age grater or equal<
 
 #task 3
 
-item = int(input("enter cost of item: "))
+item = int(input("enter cost of item: "))	# input cost 
 if item > 10000:
-    print("go to tender")
-elif item >= 500 and item <= 10000:
-    print("get quotes from threedifferent suppliers")
+    print("go to tender") 	 #if item costs more than 10000 it prints go to tender
+elif item >= 500 and item <= 10000:		
+    print("get quotes from threedifferent suppliers") 		# else if the item costs more than 500 and under 10000 it prints: get quotes....
 else:
-    print("order item")
+    print("order item") #else it prints order item
     
 #task 4
     
-print(" A. dundrum shopping centre")
+print(" A. dundrum shopping centre") #menue
 print(" B. tallaght")
 print(" C. broombridge")
     
-trip = input("where u wanna go")
+trip = input("where u wanna go") # asks to imput destination
 
 if trip == "A":
-    print("you have won a ticket to dundrum shopping centre")
+    print("you have won a ticket to dundrum shopping centre") # if A it prints the text
 elif trip == "B":
-    print("you have won a ticket to tallaght")
+    print("you have won a ticket to tallaght") #if B it prints the text
 elif trip == "C":
-    print("you have won a ticket to broombridge")
+    print("you have won a ticket to broombridge") # if C it prints the text
 else:
-    print("invalid entry")
+    print("invalid entry") # else it prints invalid entry
 
 #task 5
-percentage = int(input("enter percentage"))
+percentage = int(input("enter percentage")) # asks for input of a percentage
 
-if 90<= percentage <=100:
+if 90<= percentage <=100:	# if its over 90 and under 100 it prints H1
     print("H1")
-elif 80<= percentage <= 89:
-    print("H2")
+elif 80<= percentage <= 89: # ELSE IF the percentage is over 80 and under 89 it prints H2, 
+    print("H2")				#it does this with the rest of the elifs juist with dif percentages
 elif 70<= percentage <= 79:
     print("H3")
 elif 60<= percentage <= 69:
@@ -78,7 +78,7 @@ elif 30<= percentage <= 39:
 elif 0<= percentage <= 29:
     print("H8")
 else:
-    print("invalid percentage")
+    print("invalid percentage") # if non of the above ifs are made itll print invalid percentage
 
 
 
