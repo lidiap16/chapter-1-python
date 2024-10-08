@@ -7,7 +7,7 @@ if len(name) < 7:	#if name shorter than  7 letters
     print("hello", name, "your name is short") #prints short name
 if len(name) >= 7 and len(name) <= 10:	#if name between 7 and 10 letters long
     print("hello", name, "your name is long") #prints long name 
-else:
+if len(name) > 10:
     print("hello", name, "your name is very long ") #else print very long name
     
 #task2
@@ -36,7 +36,27 @@ print(dice1)
 print(dice2)
 sumNum = (dice1 + dice2) # adds the random numbers
 if dice1 == dice2:
-    double = sum(dice1 + dice2 * 2)	 # if the die numbers are the sameit prints double the sum
+    double = sum(int(dice1 + dice2 * 2))	 # if the die numbers are the sameit prints double the sum
     print("you threw a double")
 else:
     print(int(sumNum)) #else sum of the dies
+
+#task4
+discount = 0
+value = float(input("enter cost of item:"))
+if value >= 200:
+     discount = value * 0.10
+elif 100 <= value < 200:
+    discount = value * 0.05
+
+amount = value - discount
+print(value)
+print(discount)
+print(amount)
+     
+     
+#task 5
+#order a, d, c, b
+     
+     
+     
