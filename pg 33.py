@@ -84,6 +84,33 @@ print("| 2. cushion covers      |")
 print("| 3. quilts              |")
 print("| 4. exit                |")
 print("**************************")
-
-
-     
+ 
+choice = input("enter choice: ")
+if choice == "1":
+    print("you chose, curtains, 10$ for 1m^2")
+    size = int(input("enter size: "))
+    cost = size * 10
+    print("cost of curtain is", cost, "$")
+elif choice == "2":
+    print("you chose, cushon covers")
+    color = input("choose cloror, red, blue, green, yellow, flowery: ")
+    if color == "red":
+         print("cushon cover costs 8$")
+    elif color == "blue":
+         print("cushon cover costs 8$")
+    elif color == "green":
+         print("cushon cover costs 8$")
+    elif color == "yellow":
+         print("cushon cover costs 8$")
+    elif color == "flowery":
+         print("cushon cover costs 10$")
+    else:
+        print("no such color")
+elif choice == "3":
+    print("you chose option, quilts")
+    colour = input("enter color: ")
+    print("you chose a", colour, "quilt, costs 10%")
+elif choice == "4":
+    print("you sure you want to leave")
+        
+        
